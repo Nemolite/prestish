@@ -88,6 +88,18 @@ body, h1,h2,h3,h4,h5,h6,p {
     background-color: red;
 }
 
+.redfon-txt:hover {
+	width: 300px;
+    height: 70px;
+    clear: both;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 77px;
+    background-color: #009EE3;
+}
+
+
+
 .redfon-txt h1 {
 	color:#fff;
 	text-transform: uppercase;
@@ -106,10 +118,74 @@ body, h1,h2,h3,h4,h5,h6,p {
     background-color: red;
 }
 
+.redfon-txt-dob:hover {
+    width: 328px;
+    height: 61px;
+    clear: both;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 177px;
+    background-color: #009EE3;
+   
+}
+
 .redfon-txt-dob h2 {
 	color:#fff;
 	text-transform: uppercase;
 	text-align: center;
 	font-family: 'Merriweather', serif;
 	margin-top: 15px;
+}
+
+/*present*/
+
+.present {
+	width: 100%;
+	height: 900px;
+	background-color: #009EE3;
+
+}
+
+.present-main-txt {
+	width: 80%;
+	height: 100px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+
+}
+
+.present-main-txt h1 {
+	font-family: 'Merriweather', serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 20px;
+	color:#fff;
+	font-size: 36px;
+
+}
+
+.present-local {
+	width: 80%;
+	height:500px;
+	border:1px solid green;
+	margin:0 auto;
+
+}
+
+
+.present-local-left,
+.present-local-right
+ {
+	width: 49%;
+	height: 500px;
+	float: left;
+	border:1px solid red;
+
+}
+
+.present-local-left-inner {
+	width: 80%;
+	height: 250px;
+	border:1px solid red;
+	margin: 0 auto;
 }
