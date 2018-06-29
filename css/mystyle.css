@@ -167,7 +167,6 @@ body, h1,h2,h3,h4,h5,h6,p {
 .present-local {
 	width: 80%;
 	height:500px;
-	/*border:1px solid green;*/
 	margin:0 auto;
 
 }
@@ -180,7 +179,6 @@ body, h1,h2,h3,h4,h5,h6,p {
 	width: 33%;
 	height: 500px;
 	float: left;
-	/*border:1px solid red;*/
 	
 
 }
@@ -227,4 +225,58 @@ border-bottom-right-radius: 25px;
 	font-family: 'Open Sans',sans-serif;
     font-weight: 300;
     color: #000;
+}
+
+/*line-sprint*/
+
+.line-sprint {
+	width: 100%;
+	height: 200px;
+	padding-top: 20px;
+	background-color: #FFD500;
+}
+
+.line-sprint-head-txt {
+	width: 80%;
+	height: 50px;
+	margin: 0 auto;
+	/*border:1px solid red;*/
+}
+
+.line-sprint-head-txt h1 {
+	font-size: 36px;
+	text-align: center;
+	color:#000;
+	font-family: 'Merriweather', serif;
+
+
+}
+
+.line-sprint-head-txt span {
+	color: #FF0000;
+}
+
+.line-sprint-txt {
+	width: 90%;
+	height: 60px;
+	color:#000f;
+	margin: 0 auto;
+	font-family: 'Open Sans',sans-serif;
+}
+
+.line-sprint-txt h2 {
+	text-align: center;
+	    margin-top: 15px;
+}
+
+.line-sprint-address {
+	width: 90%;
+	height: 60px;
+	color:#000;
+	margin: 0 auto;
+	font-family: 'Open Sans',sans-serif;
+}
+
+.line-sprint-address h2 {
+	text-align: center;
 }
