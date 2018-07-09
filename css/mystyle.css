@@ -46,21 +46,20 @@ body, h1,h2,h3,h4,h5,h6,p {
 }
 
 .top-menu ul {
-    list-style: none; /*убираем маркеры списка*/
-    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
-    padding-left: 0; /*убираем левый отступ, равный 40px*/
+    list-style: none; 
+    margin: 0; 
+    padding-left: 0; 
     margin-top: 40px;
 }
 
 .top-menu li {
 	display: inline;
-	/*border:1px solid red;*/
 	margin-left: 20px;
 
 }
 
 .top-menu a {
-    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    text-decoration: none; 
     color:#fff; 
     font-size: 18px;
     font-family: 'Merriweather', serif;
@@ -69,7 +68,7 @@ body, h1,h2,h3,h4,h5,h6,p {
 } 
 
 .top-menu a:hover {
-    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    text-decoration: none; 
     color:red; 
     font-size: 18px;
     font-family: 'Merriweather', serif;
@@ -78,7 +77,43 @@ body, h1,h2,h3,h4,h5,h6,p {
     border-bottom: 2px solid red;
 } 
 
+/*bottom-menu*/
 
+.foot-middle ul {
+    list-style: none; 
+    margin: 0; 
+    padding-left: 0;
+    margin-top: 30px; 
+}
+   
+.foot-middle li {
+	display: inline;
+	margin-left: 50px;
+
+} 
+
+.foot-middle {
+	background-color: #FFD500;
+} 
+
+.foot-middle a {
+    text-decoration: none; 
+    color:#009EE3; 
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    margin-top: 40px;
+} 
+
+.foot-middle a:hover {
+    text-decoration: none; 
+    color:red; 
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    margin-top: 40px;
+    border-bottom: 2px solid red;
+} 
 
 
 .top-info {
