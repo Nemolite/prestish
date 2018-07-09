@@ -75,6 +75,11 @@ body, h1,h2,h3,h4,h5,h6,p {
     text-transform: uppercase;
     margin-top: 50px;
     border-bottom: 2px solid red;
+    webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 } 
 
 /*bottom-menu*/
@@ -113,6 +118,11 @@ body, h1,h2,h3,h4,h5,h6,p {
     text-transform: uppercase;
     margin-top: 40px;
     border-bottom: 2px solid red;
+  webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 } 
 
 
@@ -168,6 +178,11 @@ body, h1,h2,h3,h4,h5,h6,p {
     margin-left: 70px;
     margin-top: 77px;
     background-color: #009EE3;
+    webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 
@@ -198,6 +213,11 @@ body, h1,h2,h3,h4,h5,h6,p {
     margin-left: 70px;
     margin-top: 177px;
     background-color: #009EE3;
+    webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
    
 }
 
@@ -393,11 +413,11 @@ webkit-transition: 1s;
 .special-list-complete-left:hover,
 .special-list-complete-right:hover {
 	background-color: #009EE3;
-	webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
+	webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .special-list-complete-left-img {
@@ -513,15 +533,19 @@ box-shadow: 10px 10px 5px 0px rgba(0,158,227,1);
 	font-family: 'Open Sans',sans-serif;
 	margin-left: 50px;
 	margin-top: 10px;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .map-txt span {
 	font-family: 'Open Sans',sans-serif;
-	font-size: 22px;
+	font-size: 20px;
 	color:red;
 }
 
+
+.map-txt img {
+
+}
 /*foot*/
 
 .foot {
